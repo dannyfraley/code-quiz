@@ -1,0 +1,62 @@
+#quiz {
+    text-align: center;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 30px;
+      margin-top: 40px;
+    }
+
+    .col-md-8 {
+      width: 100%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .footerText {
+        font-size: 10pt;
+    }
+}
+  
+@media screen and (max-width: 320px) {
+    .container {
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+      }
+    
+      .col-md-8 {
+        width: 100%;
+      }
+      .col-md-6 {
+        width: 50%;
+    }
+    .footerText {
+        font-size: 8pt;
+    }
+}
+  
+@media screen and (max-width: 168px) {
+    .container {
+        width: 100%;
+        padding: 0px;
+        margin-top: 10px;
+      }
+    
+      .col-md-8 {
+        width: 100%;
+      }
+      .col-md-6 {
+        width: 50%;
+    }
+    .footerText {
+        font-size: 6pt;
+    }
+}
