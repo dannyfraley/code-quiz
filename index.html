@@ -19,26 +19,26 @@
     <body>
         <section class="container">
             <div class="row">
-                <div class="col-md-3"> </div>
-                <div class="col-md-6" id="quiz">
+                
+                <div class="col-md-8 mx-auto" id="quiz">
                     <h1>
                         JavaScript Quiz!
                     </h1>
 
-                    <div class="center">
-                        <h4>Time: <span id="timeLeft">0</span></h4>
+                    <div>
+                        <h5 id="time-style" class="tick-tock">Time Remaining:<span id="time"> </span></h5>
                     </div>
 
                     <div id="quizBody">
                         <h3>
                             Click to play!
                         </h3>
-                        <button id="start" class="btn btn-primary btn-lg">Start Quiz</button>
+                        <button id="start" class="answerButton">Start Quiz</button>
                     </div>
 
-                    <div id="questions"></div>
+                    <div id="questions" class=quizQuestions></div>
                 </div>
-                <div class="col-md-3"></div>
+                
             </div>
         </section>
 

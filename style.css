@@ -7,6 +7,37 @@
     padding: 10vh;
 }
 
+#questions {
+  text-align: left
+}
+
+.quizQuestions {
+  padding: 5vh;
+}
+
+.answerButton {
+  margin: 20px;
+  background-color: rgb(226, 80, 214);
+  color: whitesmoke;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 15px;
+  display: block;
+  width: 100%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.answerButton:hover {background-color: rgb(226, 34, 210)}
+
+.answerButton:active {
+  background-color: rgb(226, 34, 210);
+  transform: translateY(10px);
+}
+
+
+
+
 @media screen and (max-width: 768px) {
     .container {
       width: 100%;
