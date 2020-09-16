@@ -15,8 +15,12 @@
   padding: 5vh;
 }
 
+.h2 {
+  text-align: center;
+}
+
 .answerButton {
-  margin: 20px;
+  margin-top: 20px;
   background-color: rgb(226, 80, 214);
   color: whitesmoke;
   border: solid 1px black;
